@@ -58,7 +58,6 @@ const users_routes = (app: express.Router) => {
                     payload,
                     process.env.token_secret as string
                 );
-                res;
                 res.json({ result, jwt_token });
             } catch (err) {
                 res.status(404).send(`Could not add user. ${err}`);
