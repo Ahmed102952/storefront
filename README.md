@@ -9,10 +9,10 @@ The database schema and and API route information can be found in the [REQUIREME
 
 ## Scripts
 
-`lint:fix`: to run eslint with prettier.
-`build`: to compile ts to js
-`start`: to start the server
-`test`: to migrate testing database and start test with jasmine. `test:win` for windows
+-   `lint:fix`: to run eslint with prettier.
+-   `build`: to compile ts to js
+-   `start`: to start the server
+-   `test`: to migrate testing database and start test with jasmine. `test:win` for windows
 
 ## Set up Database
 ### Create Databases
