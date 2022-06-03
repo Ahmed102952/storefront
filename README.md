@@ -16,7 +16,7 @@ The database schema and and API route information can be found in the [REQUIREME
 
 ## Set up Database
 ### Create Databases
-Create the dev and test database.
+Create the dev and test database on port `5432`.
 
 - In psql run the following to create a user 
     - `CREATE USER angelic_user WITH PASSWORD 'ang123';`
@@ -53,3 +53,7 @@ test_token=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdF9uYW1lIjoiZmlyc
 
 ENV=dev
 ```
+
+## Start App
+
+run `npm run start`: to start the server on port `3000` and database should be on port `5432`
