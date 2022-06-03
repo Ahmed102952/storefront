@@ -1,6 +1,5 @@
 node_modules
 .env
-build\
+build
 docker-compose.yml
-migrations\
-.gitignore
+migrations
