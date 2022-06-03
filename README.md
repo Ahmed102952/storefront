@@ -16,9 +16,8 @@ The database schema and and API route information can be found in the [REQUIREME
 
 ## Set up Database
 ### Create Databases
-We shall create the dev and test database.
+Create the dev and test database.
 
-- connect to the default postgres database as the server's root user `psql -U postgres`
 - In psql run the following to create a user 
     - `CREATE USER angelic_user WITH PASSWORD 'ang123';`
 - In psql run the following to create the dev and test database
