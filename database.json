@@ -1,0 +1,16 @@
+{
+    "dev": {
+      "type": "postgres",
+      "driver": "pg",
+      "database": "storefront",
+      "user": "angelic_user",
+      "password": "ang123"
+    },
+    "test": {
+      "type": "postgres",
+      "driver": "pg",
+      "database": "storefront_test",
+      "user": "angelic_user",
+      "password": "ang123"
+    }
+}
