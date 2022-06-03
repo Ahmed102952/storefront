@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 describe("test token authentication function", () => {
     dotenv.config();
     const token = process.env.test_token as string;
-    console.log(token)
+    console.log(token);
 
     it("should Not give access", async () => {
         const res = await supertest(app)

@@ -4,7 +4,7 @@ import Clint from "../../../database";
 import dotenv from "dotenv";
 
 describe("test products endpoit", () => {
-    dotenv.config()
+    dotenv.config();
     const token = process.env.test_token as string;
 
     const route = "/products";

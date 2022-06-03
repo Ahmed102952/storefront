@@ -1,10 +1,10 @@
 import supertest from "supertest";
 import { app } from "../../../server";
 import Clint from "../../../database";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
 describe("test users endpoit", () => {
-    dotenv.config()
+    dotenv.config();
     const token = process.env.test_token as string;
 
     const route = "/users";

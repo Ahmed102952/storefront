@@ -1,11 +1,11 @@
 import supertest from "supertest";
 import { app } from "../../../server";
 import Clint from "../../../database";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
 describe("test orders endpoit", () => {
-    dotenv.config()
-    const token = process.env.test_token as string
+    dotenv.config();
+    const token = process.env.test_token as string;
 
     const route = "/orders";
 
