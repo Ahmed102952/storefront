@@ -36,7 +36,6 @@ const users_routes = (app: express.Router) => {
     );
     app.post(
         "/",
-        authToken,
         async (req: Request, res: Response): Promise<void> => {
             try {
                 const first_name = req.body.first_name;
